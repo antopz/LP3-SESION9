@@ -1,0 +1,33 @@
+X / TWITTER - SIMULADOR INTERACTIVO EN JAVA SWING
+================================================
+
+Este proyecto no contiene capturas de pantalla usadas como fondo.
+La interfaz se construye con componentes Java Swing y dibujos Java2D.
+No se conecta a la red social real: todas las acciones son simuladas de forma local.
+
+IMPORTAR EN ECLIPSE
+1. Descomprime el ZIP.
+2. Abre Eclipse > File > Import > General > Existing Projects into Workspace.
+3. Selecciona la carpeta TwitterCelularSwing y pulsa Finish.
+4. Abre src/app/TwitterCelular.java.
+5. Clic derecho > Run As > Java Application.
+
+FUNCIONES
+- Feed desplazable con publicaciones
+- Clic en texto, autor o recuadro multimedia -> publicación compacta
+- Botón Ver detalles del post -> publicación ampliada
+- Responder, consultar conversación y guardar respuestas
+- Me gusta, repost y guardados (cambian de estado)
+- Crear publicaciones propias (hasta 280 caracteres)
+- Buscar publicaciones por texto o usuario
+- Notificaciones locales, perfil y publicaciones guardadas
+- Borrar publicaciones propias desde menú de tres puntos
+- Navegación mediante barra inferior y botón de volver
+
+DATOS
+Se guardan en tu perfil de Windows, archivo .twitter_celular_swing.dat
+Para reiniciar la demostración, cierra la app y borra ese archivo.
+
+REQUISITOS
+JDK 17 o superior (incluye JDK 25). Solo Swing y Java2D.
+No requiere librerías adicionales ni conexión a Internet.
